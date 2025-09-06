@@ -112,7 +112,7 @@ class NumberStringConvert:
                 continue
 
             else:
-                raise ValueError("Invalid word in input: " + word)
+                raise ValueError("Invalid word is in input: " + word)
 
         return total + current
 
